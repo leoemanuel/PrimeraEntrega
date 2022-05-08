@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 1fr 13fr 1fr;
+    grid-template-columns: 2fr 5fr 3fr;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "aside main main";
+}
+
+.header{
+    grid-area:header;
+    background-color: #1F2023;
+}
+ .sidemenu{
+    grid-area: aside;
+    background-color: #1F2023;
+}
+.content{
+    grid-area: main;
+    background-color: #1F2023f5;
+}
+
